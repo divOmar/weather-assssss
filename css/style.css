@@ -1,0 +1,36 @@
+::root{
+    --maincolor:#1E202B;
+}
+
+
+.bg-color-main{
+    background-color: var(--maincolor);
+}
+
+#appbody{
+    background-image: url(../images/banner.png);
+}
+
+
+
+
+
+nav{
+    background-color: #1E202B;
+}    
+
+
+.contact{
+    background-color: #1E202B;
+    
+}
+
+.cont-2{
+    background-color: #1E202B;
+}   
+.cont-1{
+    background-color: #323544;
+}
+.cont-3{
+    background-color: #323544;
+}

@@ -1,0 +1,152 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg text-white">
+        <div class="container-fluid ">
+          <a class="navbar-brand   text-white" href="#"><img src="images/logo@2x.png" class="w-50" alt=""> weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">live camreras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">contact</a>
+              </li>
+             
+               
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+<!--        body            -->
+         <div class=" py-5"  id="appbody" >
+
+        <div class="container  py-5 >
+
+
+            <form action="" >
+                <input type="text"  class="form-control rounded "  placeholder="find your location" id="search" >
+             
+            </form>
+        </div>
+
+
+        <div class="row text-light" >
+          <div class="cont-1 col-4">
+            <div class="card cont-1" >
+              <div class="card-body">
+                <div class="d-flex justify-content-center align-items-center text-light w-100"> 
+                  <p class=" w-50  ms-0 text-decoration-none text-light " id="todayDateNane">sunday</p>
+                <p class=" w-50 me-0 text-decoration-none  text-light"  id=""> <span id="todayDatenum">16</span>    <span id="todayDatemonth">july</span></p>
+                </div>
+                <h5 class="card-title p-2 text-light" id="todayLocation">cairo</h5>
+                <h1 class="card-subtitle mb-2 text-light"><span id="todayTemp">12.4</span><sup>o</sup>c</h1>
+                <p class="card-text"><img  class="" id="todayConImg" src="images/116.png" alt=""> </p>
+                <h4><span  class="card-text text-info" id="todayConText">cloudy</span></h4>
+                <div>
+                  <span class="text-light"><img src="images/icon-umberella.png" alt="">20%</span>
+                  <span  class="text-light"><img src="images/icon-wind.png" alt="">18 km/h</span>
+                  <span  class="text-light"><img  src="images/icon-compass.png" alt="">east</span>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="cont-2 card">
+              <div class="card-body">
+                <p  class="card-header text-light text-center tomorrowDateNane">monday</p>
+                <img class="text-center card-body justify-content-center tomorrowDateImg" src="images/176.png" alt="">
+                <h1 class="card-subtitle mb-2 text-light"><span class="tomorrowTemp">12.4</span><sup>o</sup>c</h1>
+                <h6 class="card-subtitle mb-2 text-light"><span class="minTomorrowTemp">12.4</span><sup>o</sup>c</h6>
+                <h3><span  class=" text-info text-center tomorrowConText">cloudy</span></h3>
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class=" cont-3 card" >
+              <div class="card-body">
+                <p " class="card-header text-center text-light tomorrowDateNane">monday</p>
+                <img class="text-center card-body justify-content-center tomorrowDateImg" src="images/176.png" alt="">
+                <h1 class="card-subtitle mb-2 text-light"><span class="tomorrowTemp">12.4</span><sup>o</sup>c</h1>
+                <h6 class="card-subtitle mb-2 text-light"><span class="minTomorrowTemp">12.4</span><sup>o</sup>c</h6>
+                <h3><span  class=" text-info text-center tomorrowConText">cloudy</span></h3>
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+<!--          contact -->
+          <div class="row contact py-5" >
+            <form class="col-8" action="">
+            <input class="form-control w-75 ms-5" type="text" placeholder="enter your email to subscribe"  > 
+          </form>
+         <div class="col-4">
+          <a href=""><i class=" fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href="#"><i class="fa fa-pinterest"></i></a>
+         </div>
+        </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
